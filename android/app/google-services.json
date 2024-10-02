@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "440760656451",
+    "project_id": "girman-search",
+    "storage_bucket": "girman-search.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440760656451:android:c9c6bbd5c93e4e6da3eaf6",
+        "android_client_info": {
+          "package_name": "com.example.girmansearch.girman_search"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJpywvMvsGDig8DOdnrY6KVL57YnmKSlA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

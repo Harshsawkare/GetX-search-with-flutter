@@ -28,7 +28,7 @@ class UserDetailsCard extends StatelessWidget {
                   fontSize: 24,
                   fontWeight: FontWeight.bold),
             ),
-            Spacer(),
+            const Spacer(),
 
             //close
             GestureDetector(
@@ -97,10 +97,12 @@ class UserDetailsCard extends StatelessWidget {
           ),
         ),
 
-        Image.asset('assets/image.jpeg',
-        width: 190,
-        height: 190,
-        fit: BoxFit.cover,)
+        Expanded(
+          child: ClipRRect(
+            child: Image.asset('assets/image.jpeg',
+            fit: BoxFit.cover,),
+          ),
+        )
 
       ],
     );

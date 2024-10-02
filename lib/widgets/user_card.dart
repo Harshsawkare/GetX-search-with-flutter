@@ -55,7 +55,7 @@ class UserCard extends StatelessWidget {
                 const Icon(
                   Icons.location_on_rounded,
                   color: ColorTheme.locationIcon,
-                  size: 12,
+                  size: 10,
                 ),
                 Padding(
                   padding: const EdgeInsets.only(left: 3),
@@ -63,7 +63,7 @@ class UserCard extends StatelessWidget {
                     user.city,
                     style: const TextStyle(
                       color: ColorTheme.locationIcon,
-                      fontSize: 12,
+                      fontSize: 10,
                     ),
                   ),
                 ),

@@ -34,7 +34,7 @@ class UserContactAndFetchDetails extends StatelessWidget {
                     user.contactNumber,
                     style: const TextStyle(
                         color: ColorTheme.black01,
-                        fontSize: 14,
+                        fontSize: 12,
                         fontWeight: FontWeight.bold
                     ),
                   ),
@@ -46,7 +46,7 @@ class UserContactAndFetchDetails extends StatelessWidget {
             const Text('Available on phone',
               style: TextStyle(
                 color: ColorTheme.textGrey02,
-                fontSize: 12,
+                fontSize: 10,
               ),
             ),
           ],
@@ -78,18 +78,18 @@ class UserContactAndFetchDetails extends StatelessWidget {
               );
             },
             child: Container(
-              height: 40,
+              height: 35,
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(7),
                   color: ColorTheme.black02
               ),
               child: const Center(
                 child: Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 15),
+                  padding: EdgeInsets.symmetric(horizontal: 10),
                   child: Text('Fetch Details',
                     style: TextStyle(
                       color: ColorTheme.primaryLogo,
-                      fontSize: 15,
+                      fontSize: 12,
                     ),
                   ),
                 ),

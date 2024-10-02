@@ -1,4 +1,4 @@
-***Girman Technologies Flutter App Documentation***
+***Girman - Search Using GetX anf Firebase in Flutter App***
 
 **Project Overview**
 

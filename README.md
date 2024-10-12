@@ -1,4 +1,4 @@
-***Girman - Search Using GetX and Firebase in Flutter App***
+***Search Using GetX and Firebase in Flutter App***
 
 **Project Overview**
 
